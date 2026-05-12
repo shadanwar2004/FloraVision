@@ -34,31 +34,61 @@ FloraVision features a premium dark-glass UI design with animated sections, tren
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
-```bash id="y4d4ir"
-src/
+```bash
+flora-vision/
 │
-├── assets/
-│   ├── plants/
-│   └── reviews/
+├── dist/
+├── node_modules/
 │
-├── components/
-│   ├── Navbar.jsx
-│   ├── Footer.jsx
-│   ├── PlantCard.jsx
-│   └── ReviewCard.jsx
+├── src/
+│   ├── assets/
+│   │   ├── plants/
+│   │   │   ├── agave.png
+│   │   │   ├── cactus.png
+│   │   │   ├── heroPlant.png
+│   │   │   ├── monstera.png
+│   │   │   ├── potPlant.png
+│   │   │   ├── smallPlant.png
+│   │   │   ├── snakePlant.png
+│   │   │   └── trendingPlant.png
+│   │   │
+│   │   ├── reviews/
+│   │   │   ├── review1.png
+│   │   │   ├── review2.png
+│   │   │   └── review3.png
+│   │   │
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   │
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── PlantCard.jsx
+│   │   └── ReviewCard.jsx
+│   │
+│   ├── sections/
+│   │   ├── OxygenSection.jsx
+│   │   ├── ReviewSection.jsx
+│   │   ├── TopSellingSection.jsx
+│   │   └── TrendingSection.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
-├── sections/
-│   ├── Hero.jsx
-│   ├── TrendingSection.jsx
-│   ├── TopSellingSection.jsx
-│   ├── ReviewSection.jsx
-│   └── OxygenSection.jsx
-│
-├── App.jsx
-├── main.jsx
-└── index.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ---
