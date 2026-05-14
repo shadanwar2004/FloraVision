@@ -33,23 +33,24 @@ function ReviewSection() {
 
   return (
 
-    <section className="section-padding py-20">
+    
+    <section className="section-padding pt-6 pb-8">
 
-      {/* TITLE */}
+  {/* TITLE */}
 
-      <div className="flex justify-center mb-16">
+  <div className="flex justify-center mb-14">
 
-        <h2 className="text-3xl md:text-4xl font-semibold">
+    <h2 className="text-3xl md:text-4xl font-semibold">
 
-          Customer Review
+      Customer Review
 
-        </h2>
+    </h2>
 
-      </div>
+  </div>
 
       {/* GRID */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
         {reviews.map((item, index) => (
 

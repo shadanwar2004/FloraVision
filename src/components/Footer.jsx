@@ -2,10 +2,9 @@ function Footer() {
 
   return (
 
-    <footer className="section-padding pt-24 pb-14 mt-24">
+    <footer className="section-padding pt-8 pb-8 mt-14">
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-start">
-
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 items-start">
         {/* LEFT */}
 
         <div>
@@ -38,7 +37,7 @@ function Footer() {
 
           {/* SOCIALS */}
 
-          <div className="flex items-center gap-8 mt-12 text-sm font-semibold tracking-[2px]">
+          <div className="flex items-center gap-8 mt-8 text-sm font-semibold tracking-[2px]">
 
             <button className="hover:text-green-400 transition-all duration-300">
 
@@ -72,7 +71,7 @@ function Footer() {
 
           </h3>
 
-          <ul className="space-y-5 text-sm text-gray-300">
+          <ul className="flex flex-wrap gap-6 md:block md:space-y-5 text-sm text-gray-300">
 
             <li className="hover:text-white transition-all duration-300 cursor-pointer">
 
@@ -160,9 +159,9 @@ function Footer() {
 
           {/* COPYRIGHT */}
 
-          <p className="text-gray-400 text-sm mt-20">
+          <p className="text-gray-400 text-sm mt-10 mb-4">
 
-            FloraVision © all right reserve
+            © 2026 FloraVision • Built by Shad Anwar
 
           </p>
 
